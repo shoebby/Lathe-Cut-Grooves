@@ -1,0 +1,48 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 24, in script
+    layeredimage speaker c:
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
+  File "game/script.rpy", line 30, in <module>
+    speaker("c_exp_neutral_1", "c_exp_neutral_1", "c_exp_neutral_1")
+NameError: name 'speaker' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 24, in script
+    layeredimage speaker c:
+  File "E:\Renpy\renpy\ast.py", line 1987, in execute
+    self.call("execute")
+  File "E:\Renpy\renpy\ast.py", line 1966, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "E:\Renpy\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00layeredimage.rpy", line 811, in execute_layeredimage
+    rai.execute()
+  File "renpy/common/00layeredimage.rpy", line 803, in execute
+    l.extend(i.execute())
+  File "renpy/common/00layeredimage.rpy", line 292, in execute
+    rv.extend(i.execute(group=group, group_properties=properties))
+  File "renpy/common/00layeredimage.rpy", line 256, in execute
+    image = eval(self.image)
+  File "E:\Renpy\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\Renpy\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 30, in <module>
+    speaker("c_exp_neutral_1", "c_exp_neutral_1", "c_exp_neutral_1")
+NameError: name 'speaker' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.7.25031702
+Lathe Cut Grooves 1.0
+Sat Sep 20 23:19:54 2025
