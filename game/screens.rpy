@@ -135,7 +135,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background "nvl_anim"
 
 style namebox:
     xpos gui.name_xpos
@@ -1368,7 +1368,7 @@ style nvl_window:
     xfill True
     yfill True
 
-    background "gui/nvl.png"
+    background "nvl_anim"
     padding gui.nvl_borders.padding
 
 style nvl_entry:

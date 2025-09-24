@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 33: expected statement.
-    how speaker c at portrait
-                  ^
+File "game/script.rpy", line 9: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    zorder 0
+            ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Sep 20 22:48:17 2025
+Wed Sep 24 20:36:12 2025

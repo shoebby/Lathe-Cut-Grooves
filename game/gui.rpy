@@ -57,13 +57,13 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "AtkinsonHyperlegible-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "AtkinsonHyperlegible-bold.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "AtkinsonHyperlegible-Regular.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
@@ -106,8 +106,8 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 360
-define gui.name_ypos = 0
+define gui.name_xpos = 150
+define gui.name_ypos = 15
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -130,11 +130,11 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 402
+define gui.dialogue_xpos = 100
 define gui.dialogue_ypos = 75
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 900
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -365,38 +365,38 @@ define gui.history_text_xalign = 0.0
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.
 
 ## The borders of the background of the NVL-mode background window.
-define gui.nvl_borders = Borders(0, 15, 0, 30)
+define gui.nvl_borders = Borders(100, 300, 100, 300)
 
 ## The maximum number of NVL-mode entries Ren'Py will display. When more entries
 ## than this are to be show, the oldest entry will be removed.
-define gui.nvl_list_length = 6
+define gui.nvl_list_length = 2
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.
-define gui.nvl_height = 173
+define gui.nvl_height = 200
 
 ## The spacing between NVL-mode entries when gui.nvl_height is None, and between
 ## NVL-mode entries and an NVL-mode menu.
-define gui.nvl_spacing = 15
+define gui.nvl_spacing = 0
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
-define gui.nvl_name_xpos = 645
+define gui.nvl_name_xpos = 350
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = 675
-define gui.nvl_text_ypos = 12
-define gui.nvl_text_width = 885
+define gui.nvl_text_xpos = 250
+define gui.nvl_text_ypos = 50
+define gui.nvl_text_width = 725
 define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by the
 ## nvl_narrator character.)
-define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 0
-define gui.nvl_thought_width = 1170
+define gui.nvl_thought_xpos = 0
+define gui.nvl_thought_ypos = 12
+define gui.nvl_thought_width = 800
 define gui.nvl_thought_xalign = 0.0
 
 ## The position of nvl menu_buttons.

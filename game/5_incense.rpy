@@ -1,0 +1,2 @@
+label incense:
+    jump alcohol
