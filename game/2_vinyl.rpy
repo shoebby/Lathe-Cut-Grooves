@@ -83,28 +83,32 @@ label vinyl:
     show a_cds at bg
     show cadence line open decl at portrait
 
-    h "Ah, hi there Cadence. What'd you dig out this time?"
+    "" (multiple=2)
+    h "Ah, hi there Cadence. What'd you dig out this time?" (multiple=2)
 
     show cadence d open straight at portrait
     c_s "This one!"
 
     show cadence line open straight at portrait
+    "" (multiple=2)
     h "I figured you'd like that one. Nondescriptive labelling 'n all that."
 
     show cadence d halfopen confused at portrait
     c_s "Heh... Yeah... I'm somewhat of a trailblazer..."
 
     show cadence line halfopen straight at portrait
+    "" (multiple=2)
     h "Sure thing. Listened to it a bit and uh, it sounded a bit..."
-
+    "" (multiple=2)
     h "Drum and bass? If I remember correctly."
 
     show cadence d halfopen straight at portrait
     c_s "Could be, I'll let you know what I think next time. You've gotta learn your genres man!"
 
     show cadence line halfopen straight at portrait
+    "" (multiple=2)
     h "Sure thing."
-
+    "" (multiple=2)
     h "Say uh, what's up with the lip? You alright?"
 
     show cadence line open straight at portrait
@@ -114,6 +118,7 @@ label vinyl:
     c_s "Y-yeah it's fine, just... Fell down some steps."
 
     show cadence line tired straight at portrait
+    "" (multiple=2)
     h "Right... Well I have a first aid kit around back, if you'd like I can-"
 
     show cadence revd angry confused at portrait
@@ -128,12 +133,14 @@ label vinyl:
     "Cagey to the end."
     "He feels a tinge of guilt for this comparison."
 
+    "" (multiple=2)
     h "Okay... Well, that'll be 4 bucks for the record then."
 
     show cadence revd halfopen incl at portrait
     c_s "Here's a fiver, it's alright. Cya Harv."
 
     show cadence revv tired incl at portrait
+    "" (multiple=2)
     h "Till next time."
 
     nvl clear
