@@ -1,9 +1,10 @@
 ﻿define narrator = Character(None, kind=nvl, what_color="#c9c9c9")
 define c_s = Character("Cadence", color="#ff6600", kind=nvl, what_prefix="\"", what_suffix="\"")   #cadence speaking
-define c_t = Character("Cadence", color="#ff6600", kind=nvl)                                       #cadence thinking
+define c_t = Character("Cadence", color="#dfc6b6", kind=nvl)                                       #cadence thinking
 define h = Character("Harvey", color="#ffffff", what_prefix="\"", what_suffix="\"")      #harvey
 define b = Character("Bobby", color="#ffffff", what_prefix="\"", what_suffix="\"")       #bobby (hookup)
 define q = Character("Quinten", color="#ffffff", what_prefix="\"", what_suffix="\"")     #quinten (roommate)
+define l = Character("God?", color="#d12a2a", what_prefix="\"", what_suffix="\"")        #lexie
 
 transform bg:
     xpos 240
@@ -102,6 +103,13 @@ image bobby:
     0.15
     repeat
 
+image harvey:
+    "harvey1"
+    0.15
+    "harvey2"
+    0.15
+    repeat
+
 image nvl_anim:
     "nvl1"
     .15
@@ -178,10 +186,36 @@ image a_home:
     0.05
     repeat
 
+image a_pinboard:
+    "pinboard1"
+    0.05
+    "pinboard2"
+    0.05
+    "pinboard3"
+    0.05
+    repeat
+
+image a_sigil:
+    "sigil1"
+    0.15
+    "sigil2"
+    0.15
+    "sigil3"
+    0.15
+    "sigil4"
+    0.15
+    repeat
+
 #endregion
 
 transform portrait:
     xpos 1144
+    ypos 0
+    xsize 776
+    ysize 1080
+
+transform lexiepos:
+    xpos 600
     ypos 0
     xsize 776
     ysize 1080
@@ -245,3 +279,18 @@ layeredimage cadence:
             FacialFeatureAnim("mouth_wedge_1","mouth_wedge_2","mouth_wedge_3","mouth_wedge_4","mouth_wedge_5")
         attribute showcase:
             "cadence_showcase_mouth"
+    group scars:
+        attribute clean default:
+            "scar0"
+        attribute scar1:
+            BodyAnim("scar1-1","scar1-2","scar1-3")
+        attribute scar2:
+            BodyAnim("scar2-1","scar2-2","scar2-3")
+        attribute scar3:
+            BodyAnim("scar3-1","scar3-2","scar3-3")
+        attribute scar4:
+            BodyAnim("scar4-1","scar4-2","scar4-3")
+        attribute scar5:
+            BodyAnim("scar5-1","scar5-2","scar5-3")
+        attribute scar6:
+            BodyAnim("scar6-1","scar6-2","scar6-3")

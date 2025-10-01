@@ -2,6 +2,8 @@ label start:
     scene black
     show a_station at bg
 
+    play music "headsounds.ogg" fadein 10
+
     "A train station, someone jumped."
     "The strong scent of cleaning chemicals crawls up the steps into the nostrils of passersby."
     "Everything remains out of sight, not out of sense or mind."
@@ -14,7 +16,7 @@ label start:
 
     show cadence halfopen wedge incl at portrait
 
-    "A girl curses under her breath, tote bag pulled taut rectangular."
+    "A girl curses under her breath, tote bag pulled taut square."
 
     show cadence tired revv decl at portrait
 
@@ -22,7 +24,7 @@ label start:
 
     show cadence halfopen revv incl at portrait
 
-    "Returning home, carrying a gift of bloody lip and a bouquet of bruises."
+    "Returning home, carrying a gift of bloody lip and a bouquet of bruises under her chunky sweater."
     "Her payment for her new treasures, fresh parts to graft onto her hulking collection."
 
     show cadence sad confused line at portrait
@@ -32,5 +34,4 @@ label start:
     "But what if she went and got just one more?"
 
     nvl clear
-
     jump vinyl 

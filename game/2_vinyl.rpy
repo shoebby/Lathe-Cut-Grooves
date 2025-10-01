@@ -1,6 +1,6 @@
 label vinyl:
     scene black
-    show a_cubes at bg
+    show a_cubes  at bg
     show cadence three halfopen straight at portrait
 
     "Our heroine continues on her way towards her favourite source of sonically charged plastics."
@@ -83,8 +83,9 @@ label vinyl:
     show a_cds at bg
     show cadence line open decl at portrait
 
+    show harvey at person
     "" (multiple=2)
-    h "Ah, hi there Cadence. What'd you dig out this time?" (multiple=2)
+    h "Ah, hi there Cadence. What'd you dig out this time?"
 
     show cadence d open straight at portrait
     c_s "This one!"
@@ -142,6 +143,10 @@ label vinyl:
     show cadence revv tired incl at portrait
     "" (multiple=2)
     h "Till next time."
+
+    hide harvey
+    stop music fadeout 5.0
+    hide a_cds with Dissolve(5.0)
 
     nvl clear
     jump hardwood
